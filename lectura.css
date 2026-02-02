@@ -26,3 +26,19 @@ article h1 {
 article {
   text-shadow: 0 0 1px rgba(255,255,255,0.05);
 }
+.img-lateral {
+  position:absolute;
+  width: 230px;
+  top:100px
+}
+.img-lateral img {
+  width: 100%;
+  border-radius: 12px;
+}
+.img-lateral.izquierda {
+  left: 100px;
+}
+
+.img-lateral.derecha {
+  right: 100px;
+}
