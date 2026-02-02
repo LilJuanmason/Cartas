@@ -1,5 +1,8 @@
 [
     {
+      "proximamente":true
+    },
+    {
       "titulo": "Deseo",
       "fecha": "2026-01-05",
       "archivo": "textos/texto-001.html",

@@ -2,32 +2,31 @@ fetch('data.json')
   .then(res => res.json())
   .then(textos => {
 
-
-    // Últimos textos
+    // 🔹 Últimos (tarjetas)
     const ultimos = document.getElementById('ultimos');
+    ultimos.innerHTML = "";
 
-    ultimos.innerHTML = `
-      <div class="tarjeta proximamente">
-        <p>Próximamente</p>
-      </div>
-    `;
+    textos.slice(0, 2).forEach(t => {
+      const div = document.createElement('div');
+      div.className = "tarjeta";
 
-    textos.slice(0,1).forEach(t => {
-      const card = document.createElement('div');
-      card.className = "tarjeta";
+      if (t.proximamente) {
+        div.classList.add("proximamente");
+        div.textContent = "Próximamente";
+      } else {
+        div.innerHTML = `
+          <h3>${t.titulo}</h3>
+          <p class="fecha">${t.fecha}</p>
+          <a href="${t.archivo}">Leer</a>
+        `;
+      }
 
-      card.innerHTML = `
-        <h3>${t.titulo}</h3>
-        <p class="fecha">${t.fecha}</p>
-        <a href="${t.archivo}">Leer</a>
-      `;
-
-      ultimos.appendChild(card);
+      ultimos.appendChild(div);
     });
 
-    // Archivo completo
-    document.getElementById('archivo').innerHTML =
-      textos.map(t =>
-        `<p>${t.fecha} — <a href="${t.archivo}">${t.titulo}</a></p>`
-      ).join('');
+    // 🔹 Archivo completo
+    const archivo = document.getElementById('archivo');
+    archivo.innerHTML = textos.map(t =>
+      `<p>${t.fecha} — <a href="${t.archivo}">${t.titulo}</a></p>`
+    ).join('');
   });
