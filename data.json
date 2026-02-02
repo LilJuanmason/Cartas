@@ -4,6 +4,27 @@
       "fecha": "2026-01-05",
       "archivo": "textos/texto-001.html",
       "portada": "imagenes/portada-001.jpg"
+    },
+    {
+      "titulo": "Carta navideña",
+      "fecha": "2025-12-19",
+      "archivo": "textos/texto-002.html",
+      "portada": "imagenes/portada-001.jpg"
+    },
+    { 
+      "titulo": "Mi san valentin, mi novia, mi todo",
+      "fecha": "2025-02-09",
+      "archivo": "textos/texto-004.html",
+      "portada": "imagenes/portada-001.jpg"
+    },
+    {
+      "titulo": "Aún no sé",
+      "fecha": "2024-05-10",
+      "archivo": "textos/texto-003.html",
+      "portada": "imagenes/portada-001.jpg"
     }
+
+
+
   ]
   
