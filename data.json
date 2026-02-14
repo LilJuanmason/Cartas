@@ -25,9 +25,55 @@
       "fecha": "2024-05-10",
       "archivo": "textos/texto-003.html",
       "portada": "imagenes/portada-001.jpg"
+    },
+    {
+      "titulo": "Pequeño encargo",
+      "fecha": "2025-12-19",
+      "archivo": "textos/texto-005.html",
+      "portada": "imagenes/portada-001.jpg"
+    },
+    {
+      "titulo": "Coloreado de amor nevado",
+      "fecha": "2025-05-19",
+      "archivo": "textos/texto-006.html",
+      "portada": "imagenes/portada-001.jpg"
+    },
+    {
+      "titulo": "Aquí inicia",
+      "fecha": "2024-03-10",
+      "archivo": "textos/texto-007.html",
+      "portada": "imagenes/portada-001.jpg"
+    },
+    {
+      "titulo": "La primera",
+      "fecha": "2024-02-20",
+      "archivo": "textos/texto-008.html",
+      "portada": "imagenes/portada-001.jpg"
+    },
+    {
+      "titulo": "Tú y el mar",
+      "fecha": "2025-10-10",
+      "archivo": "textos/texto-009.html",
+      "portada": "imagenes/portada-001.jpg"
+    },
+    {
+      "titulo": "Fusión",
+      "fecha": "2025-08-11",
+      "archivo": "textos/texto-010.html",
+      "portada": "imagenes/portada-001.jpg"
+    },
+    {
+      "titulo": "Para Liz",
+      "fecha": "2025-10-21",
+      "archivo": "textos/texto-011.html",
+      "portada": "imagenes/portada-001.jpg"
+    },
+    {
+      "titulo": "NUESTRA HISTORIA DE AMOR",
+      "fecha": "2024-08-11",
+      "archivo": "textos/texto-012.html",
+      "portada": "imagenes/portada-001.jpg"
     }
-
-
 
   ]
   

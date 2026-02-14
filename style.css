@@ -147,4 +147,73 @@ a:hover {
   margin: 20px auto 50px auto;
   font-size: 22px;
 }
+.stats {
+  display: flex;
+  gap: 30px;
+  margin: 70px 0;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.stat-card {
+  width: 260px;
+  padding: 28px 20px;
+  border-radius: 18px;
+  background: white;
+  border: 1px solid #ccc;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.stat-card:hover {
+  transform: scale(1.04);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+.stat-card h3 {
+  margin: 0 0 10px;
+  font-size: 18px;
+  color: #555;
+}
+
+.stat-card p {
+  margin: 0;
+  font-size: 36px;
+  font-weight: bold;
+  color: #881818;
+}
+
+.stat-card.proximamente {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-style: italic;
+  color: #777;
+}
+.corazones {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.corazon {
+  position: absolute;
+  font-size: 18px;
+  opacity: 0.08;
+  animation: flotar 14s linear infinite;
+}
+
+@keyframes flotar {
+  from {
+    transform: translateY(110vh) scale(1);
+  }
+  to {
+    transform: translateY(-10vh) scale(1.4);
+  }
+}
 
